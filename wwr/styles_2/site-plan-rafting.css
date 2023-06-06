@@ -1,0 +1,57 @@
+@import url('https://fonts.google.com/specimen/Lobster');
+@import url('https://fonts.google.com/specimen/Satisfy');
+
+:root { 
+   --primary-color:#ff436f;
+   --secondary-color:#dcf2b0;
+   --accent1-color: #efc3e6;
+   --accent2-color:#00afb9; 
+
+   --heading-font:'Lobster',serif; 
+   --paragraph-font:'Satisfy',serif; 
+
+   --nav-background-color:#dcf2b0;
+   --nav-link-color:#00afb9; 
+   --nav-hover-link-color: #ff436f;
+   --nav-hover-background-color:#efc3e6; 
+}
+
+
+body{ 
+  font-family: Arial, Helvetica, sans-serif, var(paragraph-font); 
+  max-width:960px; 
+  padding: 20px;  
+
+}  
+
+h1, h2,h3, h4,h5,h6{ 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+   color: var(primary-color) 
+} 
+
+header{ 
+  padding:20px;
+  background-color: var(accent1-color); 
+} 
+
+p{
+ padding: 25px; 
+} 
+
+nav{ 
+  background-color: antiquewhite; 
+  font-size: 1.2rem; 
+  display:flex; 
+} 
+
+nav a {
+   display:block;
+   color:var(#efc3e6);
+   text-decoration: none; 
+   padding:1rem;
+} 
+
+nav a:link,nav a:visited{ 
+    color:var(nav-hover-link-color);
+    background-color: var(nav-hover-background-color);
+}
