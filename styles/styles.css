@@ -22,4 +22,14 @@ img{
 
 p{
   padding: 10px; 
-}
+} 
+
+aside {
+  margin:1em;
+  border: 1px solid powderblue;
+  padding: 1em;
+  background-color: lightpink;
+  color:darkmagenta; 
+  text-align: center; 
+
+
