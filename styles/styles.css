@@ -1,13 +1,14 @@
-main{  
-  max: width 840px; 
+main{
+ max-width: 840px;
 }
 
 
-aside {
-  margin: 20em;
+
+aside{
+  margin: 1em;
   border: 1px solid hotpink;
   padding: 1em;
-  background-color: lightpink;
+  background-color: lightblue;
   color: darkmagenta;
   text-align: center;
 }
@@ -22,7 +23,7 @@ main img{
   height:auto;
 } 
 
-p{padding:0,}
+p{padding:0;}
 
 footer{
   margin: 1em;
