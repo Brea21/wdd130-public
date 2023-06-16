@@ -1,0 +1,58 @@
+
+@import url('https://fonts.google.com/specimen/Satisfy');
+
+:root {
+    --primary-color: #ff436f;
+    --secondary-color: #dcf2b0;
+    --accent1-color: #efc3e6;
+    --accent2-color: #00afb9;
+
+    --heading-font: 'Satisfy', serif;
+    --paragraph-font: 'Satisfy', serif;
+
+    --nav-background-color: #c9eb86;
+    --nav-link-color: #00afb9;
+    --nav-hover-link-color: #e1345d;
+    --nav-hover-background-color: #b762a6;
+} 
+
+body {
+    font-family: specimen(paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+
+}
+
+ 
+ 
+header {
+    padding: 20px;
+    background-color:rgb(27, 222, 157) ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    color:#e47fbf;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+.p-color{
+ color:#ff436f;
+} 
+ 
+.hero img{
+   display:block;
+   width:100%;
+   height:auto;
+} 
+.h1{
+ position: absolute;
+} 
+
+.article{
+ position: absolute;
+} 
+
+.img{
+   float: right;
+}
