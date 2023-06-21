@@ -20,14 +20,13 @@ body {
     font-family: specimen(paragraph-font);
     max-width: 960px;
     padding: 20px;
-
+    
 }
 
  
  
 header {
     padding: 20px;
-    background-color:rgb(206, 247, 233) ;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -36,25 +35,72 @@ p {
     font-family: 'Times New Roman', Times, serif;
 } 
 
-.p-color{
- color:#ff436f;
-} 
+
  
-.hero img{
+#hero img{
    display:block;
-   width:100%;
    height:auto;
 } 
-.h1{
+
+h1{
  position: absolute;
+ top:40px;
+ left:40px;
 } 
 
-.article{
+article{
  position: absolute;
+ background-color: silver;
 } 
 
-.img{
-   float: right;
-   width: 200;
-   height: 300px;
+.hero{
+  position:relative;
+  height: 300px;
+  overflow: hidden ;
 }
+
+.hero article img{
+    float:right;
+}  
+
+.hero h1{
+    position:absolute;
+    top: 10px;
+    width:100%;
+    background-color:#e1345d;
+    text-align: center; 
+    opacity: 70%; 
+    font-weight: bolder;
+}
+
+.hero article{
+    position: absolute;
+    right: 130px;
+    top:100px;
+    float: right;
+    font-weight: bolder;
+    opacity: 95%;
+    margin:auto;
+    background-color:#efc3e6;
+    width:80%
+} 
+
+.hero article img{
+   float:right;
+} 
+
+section img{
+    width: 250px;
+    height:160px;
+} 
+
+section h2{
+  text-align: center;
+;} 
+
+.adventure{
+ display:flex;
+ justify-content: start;
+ max-width:100px;
+}
+
