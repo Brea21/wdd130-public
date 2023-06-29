@@ -62,7 +62,8 @@ nav a{
 } 
 
 h1{ 
-  color:darkviolet; 
+  color:rgb(168, 46, 221); 
+  border-bottom:1px solid darkmagenta;
 } 
 
 
