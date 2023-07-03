@@ -16,6 +16,22 @@
     --nav-hover-background-color: #b762a6;
 } 
 
+*{
+ max-width: 840px;
+ margin: auto;
+ padding:5px;
+ font-family:Arial, Helvetica, sans-serif;
+ box-sizing: border-box;
+}
+
+p {
+    color: #fa19a7;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+} 
+
+
+
 body {
     font-family: specimen(paragraph-font);
     max-width: 960px;
@@ -23,24 +39,22 @@ body {
     
 }
 
- 
- 
-header {
-    padding: 20px;
-    font-family:Arial, Helvetica, sans-serif;
+
+header img{
+   margin: auto;
+   border: solid silver;
+   padding:0;
 }
 
-p {
-    color:#e47fbf;
-    font-family: 'Times New Roman', Times, serif;
-} 
-
-
+/*White rafting backdrop image*/
+.hero{
+ position: relative;
+}
  
 #hero img{
    display:block;
-   height:auto; 
-   width:300%;
+   width:100%;
+   height: auto;
 }   
 
 h1{
@@ -52,28 +66,13 @@ h1{
 article{
  position: absolute;
  background-color: silver;
-} 
-
-.hero{
-  position:relative;
-  height: 300px;
-  width: 900px;
-  overflow: hidden ;
 }
+
 
 .hero article img{
     float:right;
 }  
 
-.hero h1{
-    position:absolute;
-    top: 10px;
-    width:100%;
-    background-color:#e1345d;
-    text-align: center; 
-    opacity: 70%; 
-    font-weight: bolder;
-}
 
 .hero article{
     position: absolute;
@@ -110,67 +109,115 @@ header{
  margin:1rem auto;
  display:grid;
  grid-template-columns: 120px 1fr 2fr;
- align-items: center;
+ align-items:flex-start;
  border-bottom:#e47fbf;
  max-width: 1000px;
 } 
-
+/*COMPANY LOGO*/
 .logo img{
- margin:0 0.25rem 0 1rem;
+ margin:auto;
  width:64px;
  height: auto;
+ border: solid silver;
+ padding:0
 } 
 
-h1{
- font-size: small;
- font-family: Georgia, 'Times New Roman', Times, serif;
-} 
-
+/* Nav links*/
 nav{
- text-align: right; 
-} 
-
-.navigation{
  display:flex;
- list-style:none;
+ background-color: #efc3e6;
+ justify-content: space-evenly;
+ font-size:1rem;
 } 
 
-.navigation li{
- flex: 1 1 100%;
-} 
-
-.navigation a{
- display:block;
- color:#efc3e6;
- padding: 20px;
+nav a {
+ color:#e47fbf;
  text-decoration: none;
+ padding: 10px;
+ margin: 10px; 
 } 
 
-.navigation a:hover{
- color:#00afb9;
- font-weight:700;
- text-decoration: underline;
+nav a:link,
+nav a:visited{
+  color:#93eaef;
 } 
 
-figure{
-  border:thin  #dcf2b0 solid;
-  display:flex;
-  flex-flow:column;
-  padding:5px;
-  max-width: 220px; 
-  margin: auto;
-} 
-
-img{
- max-width:220px;
- max-height: 220px; 
-} 
-
-figcaption{
- background-color: #e47fbf;
- color:#e1345d;
- font:italic smaller sans-serif;
- padding:3px;
- text-align:center;
+nav a:hover{
+  color:#93eaef;
+  background-color: #e47fbf;
 }
- 
+/* whitewater rafting text header*/
+.hero h1 {
+    position: absolute;
+    top: 200px;
+    left: 240px;
+    margin: auto;
+    opacity: 70%;
+    background-color: #e1345d;
+    text-align: center;
+    /* max-width:840px;*/
+    color: silver;
+    background-color: dimgrey;
+    border: #ff436f;
+} 
+
+.middle{
+ position:absolute;
+ top:300px;
+ left:30px;
+ margin:auto;
+ max-width:740px;
+ opacity:85%;
+font-size:1rem;
+font-weight: bold;
+padding:0;
+background-color: #c9eb86;
+} 
+
+.middle img{
+ float:right;
+ width:200px;
+ height:auto;
+ opacity:100% 
+}  
+
+/*History section*/
+.history-grid{
+  display:grid;
+  grid-template-columns: 1fr 200px 1fr;
+  justify-content: space-around;
+  background-color: #efc3e6;
+  border:#e1345d;
+} 
+
+/*ADVENTURE AWAITS YOU SECTION*/ 
+section{
+  padding:0;
+  margin:auto;
+ place-content: center;
+ text-align: center;
+} 
+
+/* 5 PICTURES WITH CAPTIONS UNDER ADVENTURE AWAITS YOU*/
+.pictures{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+} 
+
+/*Footer Part*/
+footer{
+ display:flex;
+ max-width: 840px;
+ padding:0;
+ border:#efc3e6;
+ background-color: #dcf2b0;
+ color:antiquewhite;
+} 
+
+.sociallinks{
+   justify-content: flex-end;
+   margin:0;
+   padding:0;
+}
