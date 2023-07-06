@@ -32,7 +32,7 @@ p {
 
 
 body {
-    font-family: specimen(paragraph-font);
+    font-family:'Times New Roman', Times, serif;
     max-width: 960px;
     padding: 20px;
     
