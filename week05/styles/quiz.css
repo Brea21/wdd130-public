@@ -1,0 +1,37 @@
+input,select,textarea{
+  padding:0.5rem;
+  font-size:1.1rem;
+} 
+
+input[type="checkbox"]{
+  width:22px;
+  height:22px;
+ vertical-align: bottom;
+} 
+
+button{
+ margin:1rem;
+ background-color: gray;
+ color:aliceblue;
+ border-radius: 5rem;
+ padding:.75rem;
+ font-size: 1.2rem;
+} 
+
+button:hover{
+ background-color:aqua;
+}
+
+.form-item{
+  display:grid;
+ align-items: center;
+} 
+
+.column1{
+ grid-template-columns: 3f 1fr;
+ margin:0.5rem;
+} 
+
+.column2{
+ grid-template-columns: 1fr 2fr;
+}
