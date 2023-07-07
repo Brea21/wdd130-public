@@ -30,3 +30,4 @@ button:hover{
 .column1{
  grid-template-columns: 3f 1fr;
  margin:0.5rem;
+}
