@@ -42,14 +42,42 @@
    <legend>Contact Information</legend>
     <div class="form-item">
    <div class="form-item column1">
-
-
+   <label for="user name">User Name</label>
+   <input type="text" id="user name" name="user name">
+ </div>
 </div>
+  <div class="form-item column2">
+   <label for="email">Email</label>
+   <input type="text" placeholder="Email"
+    id="email">
+</div>   
+</fieldset> 
 
+<fieldset>
+  <legend>Questions</legend>
+   <label for="Purpose">How did you know about the White Rafting?</label>
+   <select id="select" name="purpose">
+    <option value="General Inquiry">General Inquiry</option>
+    <option value="Reservation Question">Reservation Question</option>
+    <option value="Website Suggestion">Website Suggestion</option>
+</select>
+  <div class="message-box">
+      <textarea id="message" cols="30" rows="10"
+      placeholder="Message"></textarea>
 </div>
 </fieldset>
-  
+  <div class="button">
+    <button id="send">Send</button>
+</div>
+    <div class="message">
+     <div class="success" id="success">Your Message  Successfully Sent!😊</div>
 
+</div>
+      <div class="checkbox-continer">
+          <input type="checkbox" id="cb1">
+          <label for="cb1">Please subscribe me to the monthly newsletter.</label>
+</div>
+        <button>Submit</button>
   
 
 
