@@ -1,5 +1,150 @@
+@import url(https:/fonts.google.com/specimen/Agdasima); 
+
+*{  
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: fantasy;
+ } 
+.contact
+{
+  position: relative;
+  min-width: 500vh;
+  padding:50px 500px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #93eaef;
+  background-size:cover;
+} 
+
+.contact .content
+{
+  max-width: 700px;
+ text-align: center; 
+}
+.contact .content h2
+{
+   font-size:36px;
+   font-weight: 500;
+   color:#e47fbf;
+}
+
+.contact .content p
+{
+  font-weight: 300;
+  color:#efc3e6;
+} 
+
+.container
+{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container .contactInfo
+{
+  width:50%;
+  display:flex;
+  flex-direction: column;
+} 
+.container .contactInfo .box
+{
+   position: relative;
+   padding:30px 0;
+   display:flex;
+} 
+.contactForm
+{
+  width:40%;
+  padding:40px;
+  background: #fa19a7;
+}
+.contactForm h2
+{
+  font-size: 30px;
+  color:black;
+  font-weight: 500;
+} 
+
+.contactForm .inputBox
+{
+  position: relative;
+  width:100%;
+  margin-top: 10px;
+} 
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+
+.contactForm .inputBox input
+{
+  width:100%;
+  padding:5px 0;
+  font-size:16px;
+  margin:10px 0;
+  border: black;
+  border-bottom:2px solid silver;
+  outline:none;
+  resize:none;
+}
+.contactForm .inputBox span
+{
+  position: absolute;
+  left:0;
+  padding:5px 0;
+  font-size: 16px;
+  margin:10px 0;
+  pointer-events: none;
+  transition: 0.5%;
+  color:black;
+}
+.contactForm .inputBox input:focus~ span
+.contactForm .inputBox input:valid ~span
+.contactForm .inputBox textarea:focus ~ span
+.contactForm .inputBox textarea:valid ~span
 
 
+{
+  color:black; 
+  font-size:12px;
+  transform:translate(-20px) ;
+}
+
+.contactForm .inputBox input[type="submit"] 
+{
+  width:100px;
+  background:#e47fbf;
+  color:#93eaef;
+  border:none;
+  cursor: pointer;
+  padding: 10px;
+  font: size 18px; 
+} 
+
+@media(max-width: 991px)
+{
+   .contact
+   {
+      padding: 50px;
+   }
+    .container
+   {
+     flex-direction: column;
+   } 
+   .container .contactInfo 
+    {
+     margin-bottom: 40px;
+    } 
+    .container .contactInfo
+    {
+      width:100%;
+    }
+    
+}
+ 
 :root {
     --primary-color: #ff436f;
     --secondary-color: #dcf2b0;
@@ -14,6 +159,8 @@
     --nav-hover-link-color: #e1345d;
     --nav-hover-background-color: #b762a6;
 } 
+
+
 
 *{
  max-width: 840px;
@@ -219,4 +366,5 @@ footer{
    justify-content: flex-end;
    margin:0;
    padding:0;
-}
+}  
+
