@@ -1,150 +1,4 @@
 @import url(https:/fonts.google.com/specimen/Agdasima); 
-
-*{  
-   margin:0;
-   padding:0;
-   box-sizing: border-box;
-   font-family: fantasy;
- } 
-.contact
-{
-  position: relative;
-  min-width: 500vh;
-  padding:50px 500px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #93eaef;
-  background-size:cover;
-} 
-
-.contact .content
-{
-  max-width: 700px;
- text-align: center; 
-}
-.contact .content h2
-{
-   font-size:36px;
-   font-weight: 500;
-   color:#e47fbf;
-}
-
-.contact .content p
-{
-  font-weight: 300;
-  color:#efc3e6;
-} 
-
-.container
-{
-  width:100%;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-.container .contactInfo
-{
-  width:50%;
-  display:flex;
-  flex-direction: column;
-} 
-.container .contactInfo .box
-{
-   position: relative;
-   padding:30px 0;
-   display:flex;
-} 
-.contactForm
-{
-  width:40%;
-  padding:40px;
-  background: #fa19a7;
-}
-.contactForm h2
-{
-  font-size: 30px;
-  color:black;
-  font-weight: 500;
-} 
-
-.contactForm .inputBox
-{
-  position: relative;
-  width:100%;
-  margin-top: 10px;
-} 
-.contactForm .inputBox input,
-.contactForm .inputBox textarea
-
-.contactForm .inputBox input
-{
-  width:100%;
-  padding:5px 0;
-  font-size:16px;
-  margin:10px 0;
-  border: black;
-  border-bottom:2px solid silver;
-  outline:none;
-  resize:none;
-}
-.contactForm .inputBox span
-{
-  position: absolute;
-  left:0;
-  padding:5px 0;
-  font-size: 16px;
-  margin:10px 0;
-  pointer-events: none;
-  transition: 0.5%;
-  color:black;
-}
-.contactForm .inputBox input:focus~ span
-.contactForm .inputBox input:valid ~span
-.contactForm .inputBox textarea:focus ~ span
-.contactForm .inputBox textarea:valid ~span
-
-
-{
-  color:black; 
-  font-size:12px;
-  transform:translate(-20px) ;
-}
-
-.contactForm .inputBox input[type="submit"] 
-{
-  width:100px;
-  background:#e47fbf;
-  color:#93eaef;
-  border:none;
-  cursor: pointer;
-  padding: 10px;
-  font: size 18px; 
-} 
-
-@media(max-width: 991px)
-{
-   .contact
-   {
-      padding: 50px;
-   }
-    .container
-   {
-     flex-direction: column;
-   } 
-   .container .contactInfo 
-    {
-     margin-bottom: 40px;
-    } 
-    .container .contactInfo
-    {
-      width:100%;
-    }
-    
-}
- 
 :root {
     --primary-color: #ff436f;
     --secondary-color: #dcf2b0;
@@ -160,211 +14,334 @@
     --nav-hover-background-color: #b762a6;
 } 
 
-
-
-*{
- max-width: 840px;
- margin: auto;
- padding:5px;
- font-family:Arial, Helvetica, sans-serif;
- box-sizing: border-box;
-}
-
-p {
-    color: #fa19a7;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 20px;
-} 
-
-
-
 body {
     font-family:'Times New Roman', Times, serif;
-    max-width: 960px;
-    padding: 20px;
-    
+    margin:0;
+    padding: 0;
+    color:darkmagenta;    
 }
 
-
-header img{
-   margin: auto;
-   border: solid silver;
-   padding:0;
+h1, h2, h3, h4, h5, h6{
+  color:black;
+  text-align: center;
+  font-size: medium;
+  line-height: normal;
 }
-
-/*White rafting backdrop image*/
-.hero{
- position: relative;
-}
- 
-#hero img{
-   display:block;
-   width:3500%;
-   height: auto;
-}   
-
-h1{
- position: absolute;
- top:40px;
- left:40px;
-} 
-
-article{
- position: absolute;
- background-color: silver;
-}
-
-
-.hero article img{
-    float:right;
-}  
-
-
-.hero article{
-    position: absolute;
-    right: 130px;
-    top:100px;
-    float: right;
-    font-weight: bolder;
-    opacity: 95%;
-    margin:auto;
-    background-color:#efc3e6;
-    width:80%
-} 
-
-.hero article img{
-   float:right;
-} 
-
-section img{
-    width: 250px;
-    height:160px;
-} 
 
 section h2{
   text-align: center;
-;} 
-
-.adventure{
- display:flex;
- justify-content: start;
- max-width:100px;
 }
 
-header{
- margin:1rem auto;
- display:grid;
- grid-template-columns: 120px 1fr 2fr;
- align-items:flex-start;
- border-bottom:#e47fbf;
- max-width: 1000px;
-} 
-/*COMPANY LOGO*/
-.logo img{
- margin:auto;
- width:64px;
- height: auto;
- border: solid silver;
- padding:0
-} 
+p{
+ font-size:medium ;
+ line-height: normal;
+}
 
-/* Nav links*/
-nav{
- display:flex;
- background-color: #efc3e6;
- justify-content: space-evenly;
- font-size:1rem;
-} 
+ a{
+  text-decoration: none;
+  color:darkturquoise;
+}
 
-nav a {
- color:#e47fbf;
+.sociallinks a{
  text-decoration: none;
- padding: 10px;
- margin: 10px; 
-} 
-
-nav a:link,
-nav a:visited{
-  color:#93eaef;
-} 
-
-nav a:hover{
-  color:#93eaef;
-  background-color: #e47fbf;
+ color:#e1345d;
 }
-/* whitewater rafting text header*/
-.hero h1 {
-    position: absolute;
-    top: 200px;
-    left: 240px;
-    margin: auto;
-    opacity: 70%;
-    background-color: #e1345d;
-    text-align: center;
-    /* max-width:840px;*/
-    color: silver;
-    background-color: dimgrey;
-    border: #ff436f;
-} 
 
-.middle{
- position:absolute;
- top:300px;
- left:30px;
- margin:auto;
- max-width:740px;
- opacity:85%;
-font-size:1rem;
-font-weight: bold;
-padding:0;
-background-color: #c9eb86;
-} 
-
-.middle img{
- float:right;
- width:200px;
- height:auto;
- opacity:100% 
-}  
-
-/*History section*/
-.history-grid{
-  display:grid;
-  grid-template-columns: 1fr 200px 1fr;
-  justify-content: space-around;
+a.nav-link{
+  text-decoration: none;
+  color:silver;
   background-color: #efc3e6;
-  border:#e1345d;
-} 
+  padding: 5px 10px;
+}
 
-/*ADVENTURE AWAITS YOU SECTION*/ 
-section{
-  padding:0;
-  margin:auto;
- place-content: center;
- text-align: center;
-} 
+a.nav-link:hover{
+  background-color:gray;
+  color:#ff436f;
+}
 
-/* 5 PICTURES WITH CAPTIONS UNDER ADVENTURE AWAITS YOU*/
-.pictures{
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-} 
+.header-container{
+  display:grid;
+  grid-template-columns: auto 1fr;
+  align-items:center;
+  background-color: silver;
+}
 
-/*Footer Part*/
-footer{
+.logo{
  display:flex;
- max-width: 840px;
- padding:0;
- border:#efc3e6;
- background-color: #dcf2b0;
- color:antiquewhite;
+ align-items:center;
+ padding:10px;
+ gap:10px 
+}
+
+.logo img{
+  height:70px;
+  border: silver;
+}   
+
+.header-container .logo h1{
+  color:silver;
+}
+
+.nav-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.nav-container a{
+   text-decoration:none;
+   color:deeppink;
+}
+
+header nav{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+header nav a{
+  margin:0 10px
+}
+
+.hero{
+  position:relative;
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+.hero-overlay{
+ position: absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ background:aqua;
+} 
+
+.hero-img{
+  display:block;
+  width:100%;
+  height:auto;
+  margin:0 auto;
+} 
+
+.hero h1{ 
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, 50%);
+  font-size:3rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0, 0.5);
+  color:purple;
+  background-color:black;
+}
+
+article{
+  margin-top:var(--section-spacing);
+  padding: 20px;
+  background-color:lightpink;
+  box-shadow:0 0 10px silver;
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  box-sizing:border-box;
+} 
+
+.client-img{
+  width:200px;
+  height:auto;
+  position:relative;
+  top:20px;
+  right:20px;
+  margin:20px;
+  float: right;
+  margin-left:20px;
+  margin-bottom:20px;
+} 
+
+article p{
+  margin-bottom:20px;
+  text-align:left;
+} 
+
+article .text-container{
+  flex:1;
+} 
+
+section{
+  width:100%;
+  max-width:800px;
+  margin: 0 auto;
+  display:flex;
+  flex-direction:column;
+  align-items: flex-start;
+  padding: 12px;
+  background-color:lightpink;
+  border: 1px solid silver;
+  box-sizing:border-box;
+}
+.image-section{
+  max-width: 800px;
+  margin:0 auto;
+  padding:40px 20px;
+} 
+
+.image-group figure{
+  flex:0 0 200px;
+  margin:10px;
+  text-align: center;
+  box-sizing: border-box;
+} 
+
+.image-group img{
+ display:block;
+ width:100%;
+ height:auto;
+ max-width: 200px;
+ margin-bottom: 10px;
+} 
+
+section p{
+ margin-bottom:20px;
+ text-align: left;
+}
+
+figure img{
+  width:100%;
+  height:auto;
+  max-width: 300px;
+  margin-bottom:10px;
+} 
+
+figcaption{
+  text-align: center;
+} 
+
+footer{
+ background-color: #efc3e6;
+ color:purple;
+ text-align: center;
+ padding:20px;
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+footer p{
+ flex: 1;
+ color:aqua;
 } 
 
 .sociallinks{
-   justify-content: flex-end;
-   margin:0;
-   padding:0;
+ display:flex;
+ justify-content: flex-end;
+ align-items: center;
+} 
+
+.sociallinks a{
+  margin-left: 10px;
+  text-decoration: none;
+  color:crimson;
+} 
+
+.sociallinks img{
+  width:30px;
+  height: 30px;
+} 
+
+.company-info{
+  margin-top:var(--secondary-color);
+  padding:20px;
+  background-color: darkgray;
+  box-shadow: #b762a6;
+  width:100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow:hidden;
+  display:flex;
+  flex-direction: column; 
+  border:1px solid black;
+  box-sizing: border-box;
+ } 
+
+.map-container{
+   margin-top: 20px;
+   width: 100%;
+} 
+
+.employee-profiles figure img{
+   width:200px;
+   height:auto;
+   margin-bottom: 10px
+} 
+
+.employee-profiles{
+  margin-top: 12px; 
+  padding:20px;
+  background-color: cyan;
+  box-shadow: black;
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border:1px solid black;
+  box-sizing: border-box;
+} 
+.client-img{
+   width:200px;
+   height: auto;
+   position: relative;
+   top:20px;
+   right:20px;
+   margin:20px;
+   float: right;
+   margin-left:20px;
+   margin-bottom:20px;
 }  
 
+.contact-form{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: ghostwhite;
+  box-sizing: 0 0 10px; 
+  width:100%;
+  max-width:800px;
+  margin: 0 auto;
+  overflow: hidden;
+  display:flex;
+  flex-direction: column;
+  border:1px solid silver;
+  box-sizing:border-box;
+} 
+
+.contact-form label{
+  margin-bottom: 10px;
+} 
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select{
+    margin-bottom: 20px;
+    padding:5px;
+    width:100%;
+}  
+
+.contact-form button[type="submit"]{
+   background-color: #ff436f;
+  color:#efc3e6;
+  padding:10px 20px;
+ border:none;
+ cursor:pointer;
+} 
+
+.contact-form button[type="submit"]:hover{
+    background-color:darkgray;
+}
