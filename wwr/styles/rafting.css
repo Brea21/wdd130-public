@@ -1,5 +1,4 @@
-@import url(https://fonts.google.com/specimen/Roboto); 
-:root {
+ :root {
     --primary-color: #ff436f;
     --secondary-color: #dcf2b0;
     --accent1-color: #efc3e6;
@@ -135,8 +134,7 @@ header nav a{
   transform: translate(-50%, 50%);
   font-size:3rem;
   text-shadow: gray;
-  color:purple;
-  background-color:black;
+  background-color:purple;
 }
 
 article{
@@ -260,7 +258,7 @@ footer p{
   margin-top:20px;
   padding:20px;
   background-color: darkgray;
-  box-shadow: silver;
+  box-shadow:grey;
   width:100%;
   max-width: 800px;
   margin: 0 auto;
@@ -286,7 +284,6 @@ footer p{
   margin-top: 12px; 
   padding:20px;
   background-color: cyan;
-  box-shadow:white;
   width:100%;
   max-width:800px;
   margin:0 auto;
@@ -312,7 +309,7 @@ footer p{
   margin-top: 20px;
   padding: 20px;
   background-color: aqua;
-  box-sizing: 10px; 
+  box-sizing: 30px; 
   width:100%;
   max-width:800px;
   margin: 0 auto;
