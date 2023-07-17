@@ -1,4 +1,4 @@
-@import url(https:/fonts.google.com/specimen/Agdasima); 
+@import url(https://fonts.google.com/specimen/Roboto); 
 :root {
     --primary-color: #ff436f;
     --secondary-color: #dcf2b0;
@@ -129,12 +129,12 @@ header nav a{
 } 
 
 .hero h1{ 
-  position:center;
+  position:relative;
   top:50%;
   left:50%;
   transform: translate(-50%, 50%);
   font-size:3rem;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0, 0.5);
+  text-shadow: gray;
   color:purple;
   background-color:black;
 }
@@ -257,10 +257,10 @@ footer p{
 } 
 
 .company-info{
-  margin-top:var(--secondary-color);
+  margin-top:20px;
   padding:20px;
   background-color: darkgray;
-  box-shadow: #b762a6;
+  box-shadow: silver;
   width:100%;
   max-width: 800px;
   margin: 0 auto;
@@ -286,7 +286,7 @@ footer p{
   margin-top: 12px; 
   padding:20px;
   background-color: cyan;
-  box-shadow: black;
+  box-shadow:white;
   width:100%;
   max-width:800px;
   margin:0 auto;
@@ -312,7 +312,7 @@ footer p{
   margin-top: 20px;
   padding: 20px;
   background-color: aqua;
-  box-sizing: 0 0 10px; 
+  box-sizing: 10px; 
   width:100%;
   max-width:800px;
   margin: 0 auto;
