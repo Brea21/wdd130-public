@@ -10,7 +10,7 @@
     --nav-background-color: #c9eb86;
     --nav-link-color: #00afb9;
     --nav-hover-link-color: #e1345d;
-    --nav-hover-background-color: #b762a6;
+    --nav-hover-background-color: #99137e;
 } 
 
 body {
@@ -248,7 +248,7 @@ footer p{
 .sociallinks a{
   margin-left: 10px;
   text-decoration: none;
-  color:crimson;
+  color:black;
 } 
 
 .sociallinks img{
@@ -297,7 +297,7 @@ body{
 
 .contact{
  padding:40px;
- background: white;
+ background: lightcyan;
  box-shadow: 0 5px 35px black;
 }
 .box{
@@ -313,7 +313,7 @@ margin-top: 20px;
 }
 
 .contact h3{
-  color:#efc3e6;
+  color:#ef10c3;
   font-weight: 500;
   font-size: 1.4em;
   margin-bottom: 10px;
@@ -360,7 +360,7 @@ margin-top: 20px;
 } 
 .inputBox input[type="submit"]{
  background: #b762a6;
- color:#efc3e6;
+ color:#9d0d80;
  border:none;
  font-size: 1.1em;
  max-width: 100px;
@@ -412,7 +412,7 @@ margin-top: 20px;
 
 .contact-form button[type="submit"]{
    background-color: #ff436f;
-  color:#efc3e6;
+  color:#96097a;
   padding:10px 20px;
  border:none;
  cursor:pointer;
@@ -436,7 +436,7 @@ margin-top: 20px;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    color:antiquewhite;
+    color:rgb(11, 115, 79);
 }
 .menu ul{
     display:flex;
@@ -444,7 +444,7 @@ margin-top: 20px;
 } 
 .menu ul li a{
     text-decoration: none;
-    color:#efc3e6;
+    color:#b30f92;
     padding:5px 12px;
     letter-spacing: 2px;
     font-size: 18px;
@@ -455,7 +455,7 @@ margin-top: 20px;
 }
 .signup a{
     text-decoration: none;
-    color:aqua;
+    color:rgb(15, 55, 55);
     font-size: 18px;
     font-weight: bold;
     border-radius: 12px;
@@ -500,7 +500,7 @@ body{
 
 body{
    font-family: Georgia, 'Times New Roman', Times, serif;
-   background: linear-gradient(white, rgb(12, 237, 237));
+   background: linear-gradient(lightpink, rgb(105, 208, 237));
    min-height: 100vh; 
    padding:150px 0;
    box-sizing:border-box;
@@ -549,7 +549,7 @@ body{
     border-radius: 3px;
     height: 50px;
     background-color:transparent;
-    color:antiquewhite;
+    color:rgb(125, 10, 148);
     padding:0px 28px;
     cursor: pointer;
     transition: 0.5s;
